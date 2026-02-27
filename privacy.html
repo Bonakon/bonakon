@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Bonakon</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --cream: #F7F3EE;
+    --dark: #1C1A18;
+    --warm: #C8A882;
+    --mid: #8C7A68;
+    --light: #E8E0D5;
+  }
+  body {
+    background: var(--cream);
+    color: var(--dark);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+  }
+  header {
+    padding: 28px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--light);
+  }
+  .logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--dark);
+    text-decoration: none;
+  }
+  .back {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--mid);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .back:hover { color: var(--warm); }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 40px 120px;
+  }
+
+  .tag {
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--warm);
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+  .date {
+    font-size: 13px;
+    color: var(--mid);
+    margin-bottom: 64px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--light);
+  }
+
+  .section {
+    margin-bottom: 48px;
+  }
+
+  .section h2 {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--warm);
+    margin-bottom: 16px;
+  }
+
+  .section p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--mid);
+    margin-bottom: 12px;
+  }
+
+  .section ul {
+    list-style: none;
+    margin-top: 8px;
+  }
+
+  .section ul li {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--mid);
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 6px;
+  }
+
+  .section ul li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--warm);
+  }
+
+  .section a {
+    color: var(--warm);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(200, 168, 130, 0.3);
+    transition: border-color 0.3s;
+  }
+  .section a:hover { border-color: var(--warm); }
+
+  .divider {
+    width: 40px;
+    height: 1px;
+    background: var(--warm);
+    margin: 48px 0;
+  }
+
+  footer {
+    padding: 32px 60px;
+    border-top: 1px solid var(--light);
+    display: flex;
+    justify-content: space-between;
+  }
+  footer p {
+    font-size: 12px;
+    color: var(--mid);
+    letter-spacing: 0.1em;
+  }
+
+  @media (max-width: 768px) {
+    header { padding: 24px; }
+    .container { padding: 48px 24px 80px; }
+    h1 { font-size: 40px; }
+    footer { padding: 24px; flex-direction: column; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">Bonakon</a>
+  <a href="index.html" class="back">← На главную</a>
+</header>
+
+<div class="container">
+  <span class="tag">Юридические документы</span>
+  <h1>Privacy Policy</h1>
+  <p class="date">Последнее обновление: 27 февраля 2026 г.</p>
+
+  <div class="section">
+    <h2>1. О нас</h2>
+    <p>Bonakon — бренд, осуществляющий продажи на маркетплейсах России. Настоящая Политика конфиденциальности описывает, как наше приложение для автоматической публикации в Pinterest обрабатывает данные.</p>
+    <p>Сайт: <a href="https://bonakon.github.io/bonakon/">bonakon.github.io/bonakon</a><br>
+    Контакт: <a href="mailto:kpn.pin3@mail.ru">kpn.pin3@mail.ru</a></p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>2. Какие данные мы собираем</h2>
+    <p>Наше приложение использует Pinterest API v5 исключительно для автоматической публикации пинов на нашем бизнес-аккаунте Bonakon. Мы не собираем и не храним персональные данные сторонних пользователей.</p>
+    <p>Единственные данные, к которым осуществляется доступ:</p>
+    <ul>
+      <li>Токены авторизации OAuth 2.0 нашего собственного Pinterest-аккаунта</li>
+      <li>Идентификаторы досок (boards) нашего аккаунта для публикации пинов</li>
+      <li>Метаданные публикуемых пинов (заголовок, описание, изображение)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Как используются данные</h2>
+    <p>Все данные используются исключительно для следующих целей:</p>
+    <ul>
+      <li>Автоматическое создание и публикация пинов на бизнес-аккаунте Bonakon</li>
+      <li>Планирование публикаций по расписанию</li>
+      <li>Чтение информации о досках для корректной публикации</li>
+    </ul>
+    <p>Данные не используются для рекламы, профилирования пользователей или любых иных целей, кроме указанных выше.</p>
+  </div>
+
+  <div class="section">
+    <h2>4. Передача третьим лицам</h2>
+    <p>Мы не продаём, не передаём и не обмениваем никакие данные с третьими лицами. Приложение взаимодействует исключительно с Pinterest API (api.pinterest.com) в соответствии с условиями использования Pinterest.</p>
+  </div>
+
+  <div class="section">
+    <h2>5. Хранение и безопасность данных</h2>
+    <p>Все API-ключи и токены доступа хранятся в защищённом виде на защищённом сервере. Доступ к ним ограничен членами внутренней команды Bonakon. Токены не передаются публично и не хранятся в открытом виде.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Срок хранения данных</h2>
+    <p>Токены доступа Pinterest действуют в соответствии с политикой Pinterest (access token — 30 дней, refresh token — 1 год) и обновляются автоматически. При прекращении использования API все токены отзываются.</p>
+  </div>
+
+  <div class="section">
+    <h2>7. Ваши права</h2>
+    <p>Поскольку приложение используется исключительно для внутренних нужд и не собирает данные сторонних лиц, вопросы о правах субъектов данных не применимы. Тем не менее, если у вас есть вопросы — обращайтесь по контактам ниже.</p>
+  </div>
+
+  <div class="section">
+    <h2>8. Контактная информация</h2>
+    <p>По всем вопросам, связанным с данной Политикой конфиденциальности, обращайтесь:</p>
+    <ul>
+      <li>Email: <a href="mailto:kpn.pin3@mail.ru">kpn.pin3@mail.ru</a></li>
+      <li>Сайт: <a href="https://bonakon.github.io/bonakon/">bonakon.github.io/bonakon</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Bonakon. Все права защищены.</p>
+  <p>Privacy Policy</p>
+</footer>
+
+</body>
+</html>
